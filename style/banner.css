@@ -1,0 +1,61 @@
+/*轮播图*/
+.jd_banner {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+.jd_bannerImg {
+	width: 600%;
+	/*transform: translateX(-16.6%);*/
+	position: relative;
+	left: -100%;
+}
+.jd_bannerImg>li {
+	float: left;
+	width: 16.6%;
+}
+.jd_bannerImg>li img {
+	width: 100%;
+	display: block;
+}
+.jd_bannerIndicator {
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	transform: translateX(-50%);
+	width: 86px;
+	height: 10px;
+}
+.jd_bannerIndicator>li {
+	float: left;
+	width: 6px;
+	height: 6px;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	margin-left: 10px;
+}
+.jd_bannerIndicator>li:first-of-type {
+	margin-left: 0;
+}
+.jd_bannerIndicator>li.active {
+	background-color: #fff;
+}
+/* 轮播图 */
+.ikun_banner .carousel-inner .item {
+  width: 100%;
+}
+.ikun_banner .carousel-inner .item .pcImg {
+  height: 508px;
+  display: block;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+.ikun_banner .carousel-inner .item .mobileImg {
+  width: 100%;
+  display: block;
+}
+.ikun_banner .carousel-inner .item .mobileImg > img {
+  width: 100%;
+  display: block;
+}

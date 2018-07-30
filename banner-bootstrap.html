@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>banner-bootstrap</title>
+	<link href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/banner.css">
+    <!--[if lt IE 9]>
+      <script src="lib/html5shiv.min.js"></script>
+      <script src="lib/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+		/* .carousel-inner  */
+		.carousel-inner .item>a{
+			height: 508px;
+			display: block;
+			-webkit-background-size: cover;
+			background-size: cover;
+			background-position: center center;
+		}
+    </style>
+</head>
+<body>
+<!-- 轮播图 -->
+<div class="ikun_banner">
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	  </ol>
+		
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item active" data-large-img="uploads/carousel/1-large.jpg" data-small-img="uploads/carousel/1.jpg">
+	      <!-- <a href="JavaScript:;"><img src="uploads/carousel/1.jpg" alt="..."></a> -->
+	      <!-- <a href="JavaScript:;" style="background-image: url('uploads/carousel/1.jpg');"></a> -->
+	    </div>
+	    <div class="item" data-large-img="uploads/carousel/2-large.jpg" data-small-img="uploads/carousel/2.jpg">
+	      <!-- <a href="JavaScript:;"><img src="uploads/carousel/2.jpg" alt="..."></a> -->
+	      <!-- <a href="JavaScript:;" style="background-image: url('uploads/carousel/2.jpg');"></a> -->
+	    </div>
+	    <div class="item" data-large-img="uploads/carousel/3-large.jpg" data-small-img="uploads/carousel/3.jpg">
+	      <!-- <a href="JavaScript:;"><img src="uploads/carousel/3.jpg" alt="..."></a> -->
+	      <!-- <a href="JavaScript:;" style="background-image: url('uploads/carousel/3.jpg');"></a> -->
+	    </div>
+	  </div>
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+</div>
+<script src="lib/jquery.min.js"></script>
+<script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="script/banner-bootstrap.js"></script>
+</body>
+</html>
